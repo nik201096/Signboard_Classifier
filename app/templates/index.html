@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Sign Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Traffic Sign Classifier</h1>
+        <p>Upload a traffic sign image to classify it using our trained model.</p>
+        <form action="/predict" method="post" enctype="multipart/form-data" class="upload-form">
+            <input type="file" name="file" accept="image/*" required class="file-input">
+            <button type="submit" class="btn">Classify</button>
+        </form>
+    </div>
+</body>
+</html>
