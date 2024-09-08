@@ -1,7 +1,5 @@
 # Signboard_Classifier
 
-# Traffic Sign Classifier Web Application
-
 ## Overview
 
 This project is a **Flask-based web application** that allows users to upload an image of a traffic sign and get it classified using a pre-trained deep learning model (LeNet). The application is designed to recognize **43 different traffic sign categories**. It uses a Convolutional Neural Network (CNN) model to predict the category of the traffic sign.
